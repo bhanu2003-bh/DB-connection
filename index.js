@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt');
 const {z} = require('zod');
 
 //connect to db
-mongoose.connect('mongodb+srv://sbhanupratap2003_db_user:0jfRHJNGt0bCD8cO@cluster0.epdwcfq.mongodb.net/TODO_APPLICATION_DB')
+mongoose.connect('')
 .catch((error)=>{
 console.log(error);
 })
